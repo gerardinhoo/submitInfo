@@ -1,0 +1,65 @@
+h2 {
+  font-family: "Geo", sans-serif;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  margin-left: 7rem;
+  font-size: 2.5rem;
+}
+
+.container {
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+input {
+  padding: 5px;
+  margin: 20px;
+  width: 40%;
+}
+
+.btn {
+  background: #e53935; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #e35d5b,
+    #e53935
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e35d5b,
+    #e53935
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  margin-left: 7rem;
+  font-size: 15px;
+}
+
+input:hover {
+  color: #fff;
+}
+
+.success {
+  background-color: #1d976c;
+  color: #fff;
+  width: 50%;
+}
+
+.error {
+  background-color: #ff4b2b;
+  color: #fff;
+  width: 30%;
+}
